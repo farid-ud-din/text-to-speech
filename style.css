@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+  color: aliceblue;
+}
+
+.hero {
+  background: url("bg.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.head {
+  font-size: 50px;
+}
+
+#textarea {
+  backdrop-filter: blur(5px) saturate(200%);
+  -webkit-backdrop-filter: blur(5px) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#textarea::placeholder {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+select {
+  backdrop-filter: blur(5px) saturate(200%);
+  -webkit-backdrop-filter: blur(5px) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  appearance: none;
+  height: 50px;
+  outline: none;
+  background-image: url(./down.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 295px;
+  background-position-y: 17px;
+  padding: 0px 40px 0px 15px;
+}
+
+select:hover {
+  background-color: rgba(53, 53, 53, 0.5);
+}
+
+.play-btn {
+  backdrop-filter: blur(5px) saturate(200%);
+  -webkit-backdrop-filter: blur(5px) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.play-btn:hover {
+  background-color: rgba(53, 53, 53, 0.5);
+}
+
+.play-icon {
+  height: 15px;
+}
