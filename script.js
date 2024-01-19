@@ -1,3 +1,10 @@
+if ('speechSynthesis' in window) {
+    console.log('Speech synthesis is supported');
+} else {
+    console.log('Speech synthesis is not supported');
+}
+
+
 let speak = new SpeechSynthesisUtterance();
 
 let voices = [];
